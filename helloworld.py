@@ -1,5 +1,6 @@
 def hello_world_string():
 	return ("Hello World")
 
-string = hello_world_string()
-print string
+if __name__ == "__main__":
+	string = hello_world_string()
+	print(string)
